@@ -1929,6 +1929,17 @@ hr {
     transform: scale(1.7);
   }
 }
+
+.heartbeat-2 {
+  -webkit-animation: heartbeat-2 2s infinite alternate;
+          animation: heartbeat-2 2s infinite alternate;
+}
+
+@-webkit-keyframes heartbeat-2 {
+  to {
+    transform: scale(3.2);
+  }
+}
 /* rotateme */
 .rotateme {
   -webkit-animation-name: rotateme;
@@ -5754,8 +5765,8 @@ z .slider-area .hero-cap h2 {
 
 .available-app-area {
   position: relative;
-  padding-top: 220px;
-  padding-bottom: 220px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .available-app-area {
@@ -5802,7 +5813,8 @@ z .slider-area .hero-cap h2 {
 }
 .available-app-area .app-img {
   position: relative;
-  right: -88px;
+  /*right: 100px;*/
+  width: 650px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
   .available-app-area .app-img {
@@ -5838,8 +5850,14 @@ z .slider-area .hero-cap h2 {
 }
 .available-app-area .app-shape .app-shape-top {
   position: absolute;
-  top: 100px;
+  top: 80px;
   left: 125px;
+}
+
+.available-app-area .app-shape .app-shape-top-2 {
+  position: absolute;
+  bottom: 100px;
+  left: 450px;
 }
 .available-app-area .app-shape .app-shape-left {
   position: absolute;
