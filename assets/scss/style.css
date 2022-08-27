@@ -5913,6 +5913,23 @@ z .slider-area .hero-cap h2 {
   line-height: 1.2;
   color: #282828;
 }
+
+.say-something-aera .say-something-cap ul li {
+  /*float: left;*/
+  display: inline;
+  list-style-type: square;
+}
+
+.say-something-aera .say-something-cap table {
+  width:100%;
+  border: 1px solid black;
+}
+
+.say-something-aera .say-something-cap table td {
+  padding: 5px;
+  text-align: center;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .say-something-aera .say-something-cap h2 {
     font-size: 41px;
