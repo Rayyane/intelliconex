@@ -5074,8 +5074,12 @@ del {
 }
 
 .slider-area .hero__caption {
-  position: relative;
-  top: 0;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /*top: 0;*/
 }
 /*@media (max-width: 767px) {
   .slider-area .hero__caption {
