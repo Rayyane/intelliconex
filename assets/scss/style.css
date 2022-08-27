@@ -5522,7 +5522,7 @@ z .slider-area .hero-cap h2 {
 }
 .best-pricing.pricing-padding {
   padding-top: 110px;
-  padding-bottom: 280px;
+  padding-bottom: 180px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -5567,7 +5567,7 @@ z .slider-area .hero-cap h2 {
 }
 
 .pricing-card-area {
-  margin-top: -295px;
+  margin-top: -195px;
 }
 .pricing-card-area .single-card {
   position: relative;
@@ -5593,10 +5593,10 @@ z .slider-area .hero-cap h2 {
     display: none;
   }
 }
-.pricing-card-area .single-card .card-top {
+/*.pricing-card-area .single-card .card-top {
   border-bottom: 2px solid #f4f4f4;
   margin-bottom: 46px;
-}
+}*/
 .pricing-card-area .single-card .card-top span {
   color: #57667e;
   font-size: 24px;
@@ -5614,6 +5614,10 @@ z .slider-area .hero-cap h2 {
 .pricing-card-area .single-card .card-top h4 span {
   color: #a5a5a4;
   font-size: 16px;
+}
+
+.pricing-card-area .single-card .card-top img {
+  width: 92%;
 }
 .pricing-card-area .single-card .card-bottom ul li {
   color: #717081;
