@@ -5916,18 +5916,22 @@ z .slider-area .hero-cap h2 {
 
 .say-something-aera .say-something-cap ul li {
   /*float: left;*/
-  display: inline;
+  /*display: inline;*/
   list-style-type: square;
 }
 
 .say-something-aera .say-something-cap table {
   width:100%;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 .say-something-aera .say-something-cap table td {
-  padding: 5px;
-  text-align: center;
+  padding: 25px;
+  /*text-align: center;*/
+}
+
+.say-something-aera .say-something-cap table td ul li {
+  list-style-type: square;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
